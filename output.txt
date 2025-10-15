@@ -1,0 +1,21 @@
+# bitcoin-cli createwallet "sample_wallet" >> output.txt 
+
+{
+  "name": "sample_wallet"
+}
+
+
+# bitcoin-cli -rpcwallet=sample_wallet getnewaddress "" legacy >> output.txt
+
+14oa117Nrpd8YDHLg57AA3VrZd6LTyStc2
+
+
+# bitcoin-cli -rpcwallet=sample_wallet getnewaddress "" bech32 >> output.txt
+
+bc1qx29ddd4rhcafay8ft9qzjcp2s8s6t3emv28zg8
+
+
+
+# bitcoin-cli -rpcwallet=sample_wallet getnewaddress "" bech32m >> output.txt
+
+bc1pkv77shluudw75x7fwas6pqnw74gce6lygw9es6gz23u39ahrdx3qgv4uph
